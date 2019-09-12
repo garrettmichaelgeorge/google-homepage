@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- BEGIN ASSIGNMENT INSTRUCTIONS
+Easy Version: Build the Google.com homepage
+
+(the simple one with just a search box).
+
+Inside your project folder, create your index.html file
+
+    Tips:
+        DON’T BE A PERFECTIONIST! You’re just trying to make it look like google.com, not actually function like it and it doesn’t have to be spaced exactly the same way to the pixel. Any dropdown menus or form submissions or hover-highlighting should be ignored.
+        USE GOOGLE! You’ll probably run into roadblocks where you can’t figure out how to do something so do what all good devs do… Google it!
+        If you’re frustrated with trying to get buttons or inputs to style the way you want (for instance, they seem to just not respond to any styles), look into the css property -webkit-appearance: none; or -moz-appearance if you’re using Firefox.
+    Start with just putting the main elements on the page (the logo image and search form), then get them placed horizontally. You can either download the Google logo or link directly to its URL on the web in your <img> tag.
+    Next do the navbar across the top, first building the content and then trying to position it. Check out how to build a horizontal CSS navbar if you’re lost.
+    Finally, put in the footer, which should be very similar to the top navbar.
+    In general, do as much on your own as you can before relying on the developer tools (or viewing the page’s source code) to help you along.
+    Push your project to Github using the instructions above!
+
+Difficult Version (optional): Build the Google.com search results page
+
+You should be able to reuse much of your code from before if you started with that project. Again, don’t worry about links to nowhere and forms that won’t submit and hard coding the search results (which you’ll have to do of course), just focus on placement and order of items on the page.
+
+Note: All the classes and id’s and names of elements that you inspect on Google’s home page are nonsensical strings (like <div class='srg'>). This is because the code was Minified (see the Wikipedia entry here), which removes or shortens unnecessary characters and names to help the page load faster. The HTML (or Javascript or CSS) file will be smaller but the browser can still read it just fine.
+
+Viewing your project on the web
+
+If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine. The good news is that if you have your project on GitHub (as described above) doing this is incredibly simple.
+
+Github allows you to publish web projects directly from a GitHub repository. Doing this will allow you to access your project from your-gh-username.github.io/your-github-repo-name
+
+There are a couple of ways to go about doing this, but the simplest is this:
+
+    make sure that the main html file of your project is called index.html. If it is not, you will need to rename it.
+    go to your GitHub repo on the web and click the Settings button
+    scroll down until you find the GitHub Pages section
+    change the Source from none to master branch and click Save.
+    it may take a few minutes (the GitHub website says up to 10) but your project should be accessible over the web from your-gh-username.github.io/your-github-repo-name (obviously substituting your own details in the link)
+
+END ASSIGNMENT INSTRUCTIONS -->
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Google homepage</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+	<header role="header">
+		<a href="">About</a>
+		<a href="">Store</a>
+
+		<a href="">Gmail</a>
+		<a href="">Images</a>
+		<a href="">icon-google apps grid</a>
+		<a href="">icon-google acount picture</a>
+
+	</header>
+	<main role="main">
+		<div>
+			<img href="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"> <!-- Google logo -->
+			<form> <!-- Google search form -->
+
+			</form>
+			<div class="container-buttons">
+				<button href="">Google Search</button>
+				<button href="">I'm Feeling Lucky</button>
+			</div>
+			<p>It's National Recovery Month. <a href="">Learn more about how to support the movement<a>
+
+		</div>
+
+	</main>
+	<footer>
+		<div class="footer-left">
+		<a href="">Advertising</a>
+		<a href="">Business</a>
+		<a href="">How Search works</a>
+		</div>
+
+		<div class="footer-right">
+		<a href="">Privacy</a>
+		<a href="">Terms</a>
+		<a href="">Settings</a>
+		</div>
+	</footer>
+    </body>
+</html>
