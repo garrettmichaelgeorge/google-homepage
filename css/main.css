@@ -1,12 +1,12 @@
 .body-container-grid {
     display: grid;
     grid-column: auto;
-    grid-template-columns: 20fr 60fr 20fr;
-    grid-template-rows: 20fr 60fr 20fr;
+    grid-template-columns: max-content 1fr max-content;
+    grid-template-rows: min-content 1fr min-content;
     grid-template-areas:
-        "header-left blank header-right"
-        "blank main blank"
-        "footer-left blank footer-right";
+        "header-left blank1C header-right"
+        "blank2L main blank2R"
+        "footer-left blank3C footer-right";
     height: 100vh;
     width: 100vw;
   }
@@ -23,6 +23,7 @@
 
   .header-right {
       grid-area: header-right;
+      justify-self: right;
   }
   
   .footer-left {    
@@ -31,6 +32,7 @@
 
   .footer-right {
       grid-area: footer-right;
+      justify-self: right;
   }
   
 
