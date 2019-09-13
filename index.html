@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Google homepage</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+</head>
 <!-- BEGIN ASSIGNMENT INSTRUCTIONS
 Easy Version: Build the Google.com homepage
 
@@ -42,20 +51,11 @@ END ASSIGNMENT INSTRUCTIONS -->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Google homepage</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
+<div class="body-container-grid">
 	<header role="header">
 		<a href="">About</a>
 		<a href="">Store</a>
@@ -68,7 +68,7 @@ END ASSIGNMENT INSTRUCTIONS -->
 	</header>
 	<main role="main">
 		<div>
-			<img href="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"> <!-- Google logo -->
+			<img src="images/googlelogo_color_272x92dp.png" alt="Google" crossorigin="anonymous"> <!-- Google logo -->
 			<form> <!-- Google search form -->
 
 			</form>
@@ -76,7 +76,7 @@ END ASSIGNMENT INSTRUCTIONS -->
 				<button href="">Google Search</button>
 				<button href="">I'm Feeling Lucky</button>
 			</div>
-			<p>It's National Recovery Month. <a href="">Learn more about how to support the movement<a>
+			<p>It's National Recovery Month. <a href="">Learn more about how to support the movement</a></p>
 
 		</div>
 
@@ -94,5 +94,6 @@ END ASSIGNMENT INSTRUCTIONS -->
 		<a href="">Settings</a>
 		</div>
 	</footer>
+	</div> <!--End .body-container-grid-->
     </body>
 </html>
