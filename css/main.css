@@ -1,20 +1,31 @@
 .body-container-grid {
     display: grid;
-    grid-column: auto;
     grid-template-columns: 20fr 60fr 20fr;
     grid-template-rows: 20fr 60fr 20fr;
     grid-template-areas:
-        "header-left blank header-right"
-        "blank main blank"
-        "footer-left blank footer-right";
+    "header header header"
+    "blankL main blankR"
+    "footer footer footer";
     height: 100vh;
     width: 100vw;
+  }
+
+  header {
+      grid-area: header;
+      display: grid;
+      
+
   }
   
   main {
     /* width: 30em; */
     grid-area: main;
     justify-self: center;
+  }
+
+  footer {
+      grid-area: footer;
+      display: grid;
   }
   
   .header-left {
