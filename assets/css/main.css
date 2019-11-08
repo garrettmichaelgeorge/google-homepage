@@ -28,6 +28,21 @@ header {
 main {
   width: 30em;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.container-branding {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+.google-logo {
+  width: 60%;
 }
 
 footer {
@@ -48,8 +63,6 @@ footer {
 .footer-right {
   padding-right: 1em;
 }
-
-li
 
 /* TYPOGRAPHY */
 
@@ -77,4 +90,49 @@ li {
   display: inline;
   list-style-type: none;
   padding-right: 1em;
+}
+
+#container-search-input {
+  display: flex;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  height: 3em;
+  margin: 0 auto;
+}
+
+#container-search-input svg {
+  flex-basis: 1.5em;
+  width: 100%;
+  margin: 0 1em 0 1em;
+  color: gray;
+  fill: currentColor;
+}
+
+form[name="google-search"] {
+  flex-basis: 80%;
+  display: flex;
+}
+
+input[name="search"] {
+  border: none;
+  flex-basis: ;
+  width: 100%;
+}
+
+
+
+.container-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background: #f2f2f2;
+  color: gray;
+  border: none;
+  margin: 0.64em;
+  padding: 0.64em;
+  border-radius: 8px;
+  
+
 }
