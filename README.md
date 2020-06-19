@@ -1,3 +1,3 @@
 # google-homepage
 
-The goal of this project is to replicate the Google.com homepage using hand-coded HTML5 and CSS3.
+The goal of this project is to replicate the basic front-end of Google.com homepage using HTML5 and CSS3.
